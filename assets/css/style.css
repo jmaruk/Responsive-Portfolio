@@ -1,0 +1,191 @@
+
+body {
+   width: 100%;
+   height: 500px;
+   background-image:url("../images/red-wallpaper.jpg");
+}
+
+  .container {
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+
+}
+header{
+    position: absolute;
+    background-color: #f3f0d4;
+    border-color: #cccccc;
+    top: 0;
+    left: 0;
+    width:100%;
+    height:60px; 
+ }
+
+#connect_with_me {
+    background: firebrick;
+    width: 270px;
+    height: 175px;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 1.5em;
+    text-align: left;
+    position: fixed;
+    float: right;
+    right: 91px;
+    
+    top: 60px;
+    color: white;
+    padding: 5px 5px 5px 5px;
+    
+
+
+}
+/*Actual about me stuff*/
+#About_Me {
+    position: relative;
+    float: left;
+    color: white;
+    width: 650px;
+    height: 400px;
+    padding-top: 2px;
+    padding-bottom: 10px;
+    background-color: firebrick;
+    margin: 10px 10px;
+    left: -100px;
+    top: 22px;
+    
+}
+/*About Me Text*/
+h2 {
+    padding-top: 20px;
+    font-size: 1.75em;
+}
+.horizontalline2 {
+    border-bottom: thick solid pink;
+
+}
+
+
+.name_container {
+width: 200px;
+height: 60px;
+background-color: rgb(22, 22, 21);
+left: 13.2%;
+padding: 0;
+/*Text positioning*/
+position: fixed;
+display: flex; /*establish flex container*/
+flex-direction: column; /*stack felx items vertically*/
+justify-content: center; /*center items vertically*/
+align-items: center; /*center items horizontally*/
+/*Text style*/
+color: white;
+font-family: fantasy;
+font-size: 20px;
+padding: 5px 5px 5px 5px;
+
+
+
+}
+
+.links {
+    float: right;
+    width: 270px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 7px;
+    left: -25px;
+    color: black;
+}
+li {
+    display: inline;
+    font-family:'Arial', 'Helvetica Heue', Helvetica, sans-serif;
+}
+img {
+    float: left;
+    display: inline-block;
+    padding-top: 20;
+    margin: 20px 10px;
+}
+p {
+    margin-left: 50px;
+    
+}
+.horizontalline {
+    border-bottom: thick solid pink;
+
+}
+
+ .image_box img{
+     width: 40px;
+     height: 40px;
+     margin: 5px; 
+     align-content: center;
+
+ }
+
+#contact_box ul {
+    top: 10px;
+    bottom: 0;
+    padding: center;
+}
+
+footer {
+    position:absolute;
+    bottom:0;
+    left: 0;
+    width:100%;
+    height:60px; 
+    background-color: #f3f0d4;
+    border-color: #cccccc;
+
+}
+#Contact_me {
+    position: relative;
+    float: left;
+    color: white;
+    width: 650px;
+    height: 400px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    background-color: firebrick;
+    margin: 10px 10px;
+    left: -100px;
+    top: 22px;
+}
+
+#Portfolio {
+    position: relative;
+    float: left;
+    color: white;
+    width: 650px;
+    height: 400px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    background-color: firebrick;
+    margin: 10px 10px;
+    left: -100px;
+    top: 22px;
+}
+
+.PortfolioPics img{
+    width: 25%;
+    height: 525%;
+    margin: 5px; 
+    align-content: center;
+
+}
+
+p2 {
+    text-align: center;
+    margin: 450px;
+}
+
+@media screen and (max-width:980px) {
+    .container {
+        width: 100%;
+    }
+    
+}
