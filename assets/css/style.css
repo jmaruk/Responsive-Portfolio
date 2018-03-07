@@ -184,45 +184,88 @@ p2 {
 }
 
 @media screen and (max-width:980px) {
-    .container {
-        width: 100%;
-        height: 1000px;
-    }
-    #About Me {
+    
+    #About_Me {
         width: 100%;
         position: relative;
         left: 100px;
+       
     }
     #Portfolio {
-        left: 100px;
+        width: 100%;
         position: relative;
+        left: 21px;
     }
     #Contact_me {
     left: 100px;
     position: relative;
     }
+
     #connect_with_me {
     left:100px;
     position: relative;
     float: left;
     }
-    header {
-        left: 100px;
-        height: 130px;
-        position: static;
+
+    
+}
+
+@media screen and (max-width: 768px) {
+    #About_Me {
+        width: 80%;
+        position: relative;
+        left: 21px;
+        height: 500px;
     }
-    footer {
-    left: 100px;
-    position: static;
+    #connect_with_me {
+        left:21px;
+        width: 80%;
+        position: relative;
+        float: left;
+        }
+    #Portfolio {
+        left: 21px;
+        width: 50%;
+        position: relative;
+        height: 400px;
     }
-    .links {
-    left: 100px;
-    position: static;
+    #Contact_me {
+        left: 10px;
+        width: 100%;
+       position: relative;
+       height: 200px;
+       }
     }
-    .name_container {
-    left: 100px;
-    position: static;
-    height: 80px;
+
+
+}
+
+@media screen and (max-width:640px) {
+    #About_Me {
+        width: 100%;
+        position: relative;
+        left: 10px;
+        height: 500px;
     }
-   
+    #connect_with_me {
+        left:21px;
+        width: 80%;
+        position: relative;
+        float: left;
+        }
+
+     #Portfolio {
+        left: 10px;
+         width: 80%;
+        position: relative;
+        height: 200px;
+        }
+
+    #Contact_me {
+        left: 10px;
+        width: 80%;
+       position: relative;
+       height: 200px;
+       }
+    }
 }
