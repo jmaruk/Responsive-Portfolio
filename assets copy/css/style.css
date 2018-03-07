@@ -183,12 +183,22 @@ p2 {
     margin: 450px;
 }
 
-@media screen and (max-width:980px) {
+@media screen and (max-width:600px) {
     .container {
         width: 100%;
     }
     #About Me {
         width: 100%;
         position: relative;
+        left: 100px;
+    }
+    #Portfolio {
+
+    }
+    #Contact_me {
+
+    }
+    #connect_with_me {
+
     }
 }
