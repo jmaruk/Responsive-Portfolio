@@ -212,7 +212,7 @@ p2 {
 
 @media screen and (max-width: 768px) {
     #About_Me {
-        width: 80%;
+        width: 90%;
         position: relative;
         left: 21px;
         height: 500px;
@@ -238,7 +238,7 @@ p2 {
     }
 
 
-}
+
 
 @media screen and (max-width:640px) {
     #About_Me {
@@ -267,5 +267,8 @@ p2 {
        position: relative;
        height: 200px;
        }
+       footer {
+        margin: -150px;
     }
-}
+    }
+    
